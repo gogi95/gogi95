@@ -1175,7 +1175,31 @@ p {
       }
     nav .items span{
       padding: 7px 15px;
-    }
+	}
+   .details .title{
+
+	display: none;
+  }
+  .details .title p{
+
+	display: none;
+
+  }
+  .details .icon{
+
+	display: none;
+  }
+  .details .fa-times::before{
+
+	display: none;
+  }
+  .preview-box .image-box{
+
+	display: none;
+  }
+  .image-box img{
+	display: none;
+  }
   }
   @media (max-width: 600px) {
     .wrapper{
